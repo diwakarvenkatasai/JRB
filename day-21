@@ -110,11 +110,11 @@ if we work on dev env it wont affect test env
 the default workspace is default 
 all the resource we create on terraform by default will store on default workspace
 
-terraform workspace list	: to list the workspaces
-terraform workspace new dev	: to create workspace
+terraform workspace list	: to  over all list the workspaces
+terraform workspace new <dev>	: to create  new workspace
 terraform workspace show	: to show current workspace
-terraform workspace select dev	: to switch to dev workspace
-terraform workspace delete dev	: to delete dev workspace
+terraform workspace select <dev>	: to move from one  to another workspace
+terraform workspace delete <dev>	: to specifi delete dev workspace
 
 
 NOTE:
